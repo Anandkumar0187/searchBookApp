@@ -1,0 +1,45 @@
+.main{
+  width: 80%;
+  min-height: 100vh;
+  margin: auto;
+  background-image: url('https://wallpaperaccess.com/full/124383.jpg');
+}
+.searchDiv{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+.searchDiv > button{
+  font-size: large;
+}
+.inputBox{
+  width: 80%;
+  font-size: larger;
+}
+.bookImages{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+.items{
+  width: 10%;
+  margin-right: 5%;
+}
+.image:hover{
+  transform: scale(1.2);
+}
+.bookInfo{
+  width: 100%;
+  word-wrap: break-word;
+  font-size: larger;
+  color: white;
+}
+@media screen and (max-width: 1024px){
+  .bookImages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
